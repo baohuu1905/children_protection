@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Blog Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/blog/">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <header class="blog-header py-2">
+            <div class="row flex-nowrap justify-content-center align-items-center">
+                <div class="col-4 pt-2 text-center">
+                    <a class="blog-header-logo text-dark text-center" href="#" style="text-decoration: none;">VNCERT/CC</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-between">
+                <a class="p-2 link-secondary" href="#">Trang chủ</a>
+                <a class="p-2 link-secondary" href="#">Giới thiệu</a>
+                <a class="p-2 link-secondary" href="#">Mục đích</a>
+                <a class="p-2 link-secondary" href="#">Chức năng</a>
+                <a class="p-2 link-secondary" href="#">Quy trình</a>
+                <a class="p-2 link-secondary" href="#">Trách nghiệm</a>
+                <a class="p-2 link-secondary" href="#">Hỏi đáp</a>
+                <div class="search-box" >
+                    <form>
+                      <input type="text" placeholder="Search...">
+                      <button class="search" type="submit">Search</button>
+                    </form>
+                  </div>
+            </nav>
+        </div>
+        <!-- <div class="search-box" >
+            <form>
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+            </form>
+          </div> -->
+        <div class="slide">
+            <img src="../images/slide6.png" style="width: 100%; height: auto; margin-bottom: 20px;margin-top: 10px;" alt="">
+            <img src="../images/slide6.png" style="width: 100%; height: auto; margin-bottom: 20px;margin-top: 10px;" alt="">
+            <img src="../images/slide6.png" style="width: 100%; height: auto; margin-bottom: 20px;margin-top: 10px;" alt="">
+            <img src="../images/slide6.png" style="width: 100%; height: auto; margin-bottom: 20px;margin-top: 10px;" alt="">
+            <img src="../images/slide6.png" style="width: 100%; height: auto; margin-bottom: 20px;margin-top: 10px;" alt="">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+		    <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="scroll-button" >
+                
+            <a  href="../html/singup.html" style="margin-top: 20px;" >Đăng ký ngay</a>
+            
+          </div>
+          <div class="message-icon" style="margin-bottom: 50px;">
+            <img src="../images/OIP.jpg" alt="Message icon">
+          </div>
+          
+          <div id="chatbot" class="chatbot">
+            <div class="chatbot-header">
+              <h2>Chat bot</h2>
+              <button class="close-button">X</button>
+            </div>
+            <div class="chatbot-body">
+              <p>Xin chào! Tôi là chatbot. Cần tôi giúp gì?</p>
+            </div>
+            <div class="chatbot-footer">
+              <input type="text" placeholder="Nhập tin nhắn của bạn">
+              <button>Gửi</button>
+            </div>
+          </div>
+        <!-- <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            
+            <div class="col-md-6 px-0">
+                
+                <h1 class="display-4 font-italic">Hãy Chung Tay Bảo Vệ Trẻ Em Trên Không Gian Mạng</h1>
+                <p class="lead my-3">Tạo dựng một không gian mạng an toàn và lành mạnh cho trẻ em.</p>
+                <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+            </div>
+        </div> -->
+
+        
+    </div>
+
+    <main class="container">
+        
+        <div class="row">
+            <div class="col-md-8">
+                <!-- <h3 class="pb-4 mb-4 font-italic border-bottom">
+                    Trẻ em trên không gian mạng.
+                </h3> -->
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Trẻ em trên không gian mạng</h2>
+                    
+
+                    <p>Bảo vệ trẻ em trên không gian mạng là quá trình đảm bảo an toàn và sự phát triển lành mạnh cho trẻ em trên internet. Với sự phát triển nhanh chóng của công nghệ và internet, trẻ em hiện nay dễ dàng tiếp cận được với nhiều thông tin, hình ảnh, video và những nguy hiểm từ các tác nhân bên ngoài mà không được kiểm soát. Do đó, bảo vệ trẻ em trên không gian mạng là một vấn đề cấp bách để đảm bảo an toàn cho trẻ em khi sử dụng internet.</p>
+                    <hr>
+                    <p>Các biện pháp bảo vệ trẻ em trên không gian mạng bao gồm nhưng không giới hạn là giám sát và kiểm soát việc trẻ em sử dụng internet, giáo dục trẻ em về an toàn trên mạng, sử dụng các công cụ bảo vệ mạng để ngăn chặn các nguy cơ và đe dọa từ các tác nhân bên ngoài, đặc biệt là các nội dung không phù hợp cho trẻ em.</p>
+                    <blockquote>
+                        <p>Bảo vệ trẻ em trên không gian mạng không chỉ là trách nhiệm của các bậc phụ huynh mà còn là trách nhiệm của toàn xã hội, chính phủ, các tổ chức, cộng đồng trực tuyến và các nhà cung cấp dịch vụ mạng. Chỉ có sự hợp tác và liên kết của tất cả các bên liên quan, chúng ta mới có thể bảo vệ trẻ em trên không gian mạng một cách toàn diện và hiệu quả..</p>
+                    </blockquote>
+                    
+                    <h2>Chức Năng Của Hệ Thống</h2>
+                    
+                    
+                    <h5>Một số chức năng của hệ thống bảo vệ trẻ em trên không gian mạng :
+                    </h5>
+                    <ol>
+                        <li>Chặn lọc nội dung không phù hợp cho trẻ em.</li>
+                        <li>Hỗ trợ giám sát việc tuân thủ chặn lọc thông tin.</li>
+                        <li>Hỗ trợ gỡ bỏ nội dung không phù hợp để bảo vệ trẻ em trên môi trường mạng.</li>
+                    </ol>
+                    
+                </div><!-- /.blog-post -->
+
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-primary">World</strong>
+                                <h3 class="mb-0">Featured post</h3>
+                                <div class="mb-1 text-muted">Nov 12</div>
+                                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <a href="#" class="stretched-link">Continue reading</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
+                                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img"
+                                    focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                        dy=".3em">Thumbnail</text>
+                                </svg>
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-success">Design</strong>
+                                <h3 class="mb-0">Post title</h3>
+                                <div class="mb-1 text-muted">Nov 11</div>
+                                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content.</p>
+                                <a href="#" class="stretched-link">Continue reading</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
+                                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img"
+                                    focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                        dy=".3em">Thumbnail</text>
+                                </svg>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Mục đích của hệ thống.</h2>
+                    
+                    <blockquote>
+                        <p>Hệ thống được triển khai nhằm mục đích chia sẻ thông tin dữ liệu trong công tác nghiên cứu, phát triển, nâng cao chất lượng sản phẩm, dịch vụ.</p>
+                    </blockquote>
+                    <p>Ngăn chặn trẻ em tiếp xúc với nội dung không phù hợp: hệ thống này sẽ giúp ngăn chặn trẻ em tiếp xúc với các nội dung bạo lực, đồi trụy, phản động hoặc các nội dung có tính chất xấu, nguy hiểm, có hại cho trẻ em.</p>
+                    
+                    <p>Giúp trẻ em sử dụng Internet một cách an toàn: hệ thống này cũng giúp trẻ em hiểu và nhận thức được các nguy hiểm trên Internet, giúp trẻ em phát triển kỹ năng sử dụng Internet một cách an toàn và có ích.</p>
+                    <p>Giúp cha mẹ và người chăm sóc trẻ em có thể giám sát hoạt động của trẻ em trên Internet: hệ thống này cung cấp cho cha mẹ và người chăm sóc trẻ em một công cụ để giám sát hoạt động của trẻ em trên mạng và đảm bảo rằng trẻ em không tiếp xúc với các nội dung không phù hợp.</p>
+                </div><!-- /.blog-post -->
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Quy trình đăng ký kết nối</h2>
+                    
+
+                    <!-- <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
+                        lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
+                        dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+                        amet risus.</p> -->
+                    <ul>
+                        <li>Bước 1: Doanh nghiệp đăng ký kết nối hệ thống bằng cách gửi văn bản đăng ký kết nối theo mẫu về Trung tâm VNCERT/CC Tầng 5-115 Trần Duy Hưng(Kèm các hồ sơ); khai báo thông tin và đăng ký tài khoản tại địa chỉ: <a href="http://127.0.0.1:5500/html/singup.html"></a></li>
+                        <li>Bước 2: Trung tâm VNCERT/CC phê duyệt đăng ký và cấp thông tin tài khoản và API cho đơn vị đăng ký.</li>
+                        <li>Bước 3: Đơn vị đăng ký thiết lập hạ tầng kỹ thuật phục vụ kết nối, tải Hướng dẫn kết nối kỹ thuật tại đây.</li>
+                        <li>Bước 4: Kiểm tra kết nối, tuân thủ các quy định kết nối, chia sẻ dữ liệu.</li>
+                    </ul>
+                    <!-- <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
+                        fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+                    </p> -->
+                </div><!-- /.blog-post -->
+
+                <!-- <nav class="blog-pagination">
+                    <a class="btn btn-outline-primary" href="#">Older</a>
+                    <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+                </nav> -->
+                <h2>Trách nhiệm của đơn vị kết nối</h2>
+                <ul>
+                    <li>-   Nghiêm túc tuân thủ các nội dung về an toàn và bảo mật thông tin</li>
+                    <li>-   Chịu trách nhiệm bảo đảm an toàn thông tin cho các dữ liệu được chia sẻ, bảo đảm các dữ liệu chỉ được sử dụng cho mục đích hỗ trợ phát triển, nghiên cứu các sản phẩm, dịch vụ an toàn bảo vệ và hỗ trợ trẻ em tương tác lành mạnh trên môi trường mạng.</li>
+                    <li>-   Tuyệt đối không tiết lộ, sử dụng, sao chép thông tin phục vụ cho mục đích cá nhân hoặc kinh doanh khác. </li>
+                    <li>-	Nếu vi phạm, chịu toàn bộ trách nhiệm và các hình thức xử lý theo quy định của pháp luật.</li>
+                </ul>
+
+            </div>
+
+            <aside class="col-md-4">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="font-italic">About</h4>
+                    <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur
+                        purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">Archives</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="#">March 2014</a></li>
+                        <li><a href="#">February 2014</a></li>
+                        <li><a href="#">January 2014</a></li>
+                        <li><a href="#">December 2013</a></li>
+                        <li><a href="#">November 2013</a></li>
+                        <li><a href="#">October 2013</a></li>
+                        <li><a href="#">September 2013</a></li>
+                        <li><a href="#">August 2013</a></li>
+                        <li><a href="#">July 2013</a></li>
+                        <li><a href="#">June 2013</a></li>
+                        <li><a href="#">May 2013</a></li>
+                        <li><a href="#">April 2013</a></li>
+                    </ol>
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">Elsewhere</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ol>
+                </div>
+            </aside>
+
+        </div><!-- /.row -->
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+        
+        <div class="footer-left">
+            <h3 style="font-weight: bold;">Liên hệ</h3>
+            <ul>
+                <li><a>HotLine</a>
+                <p>0869 100317</p>
+                </li>
+                <li><a>Email</a>
+                <p>office@vncert.vn</p>
+                </li>
+                <li><a>Địa chỉ</a>
+                <p>Tầng 5, 115 Trần Duy Hưng, Trung Hoà, Cầu Giấy, Hà Nội</p>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-center">
+            <h3 style="font-weight: bold;">Văn bản quy phạm pháp luật</h3>
+            
+        </div>
+        <div class="footer-right">
+            <h3 style="font-weight: bold;">tài liệu hướng dẫn tham khảo</h3>
+        </div>
+        
+    </footer>
+
+
+
+</body>
+<script>
+const messageIcon = document.querySelector('.message-icon');
+const chatbot = document.querySelector('#chatbot');
+const closeButton = document.querySelector('.close-button');
+
+messageIcon.addEventListener('click', () => {
+  chatbot.style.display = 'block';
+});
+
+closeButton.addEventListener('click', () => {
+  chatbot.style.display = 'none';
+});
+
+// slide
+var slideIndex = 1;
+		showSlide(slideIndex);
+
+		function prevSlide() {
+			showSlide(slideIndex -= 1);
+		}
+
+		function nextSlide() {
+			showSlide(slideIndex += 1);
+		}
+
+		function showSlide(index) {
+			var slides = document.querySelectorAll('.slide img');
+			if (index > slides.length) {
+				slideIndex = 1;
+			}
+			if (index < 1) {
+				slideIndex = slides.length;
+			}
+			for (var i = 0; i < slides.length; i++) {
+				slides[i].classList.remove('active');
+			}
+			slides[slideIndex - 1].classList.add('active');
+		}
+</script>
+</html>
